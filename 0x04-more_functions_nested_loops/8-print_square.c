@@ -11,18 +11,18 @@ void print_square(int size)
 {
 	int length, width;
 
-	if(size > 0)
+
+
+	for(length = 0; length < size; length++)
 	{
-		for(length = 0; length < size; length++)
+		for(width = 0; width < size; width++)
 		{
-			for(width = 0; width < size; width++)
-			{
-				putchar('#');
-			}
-			putchar('\n');
+			putchar('#');
 		}
-	}else
-	{
-		putchar('\n')
+		putchar('\n');
 	}
+	
+
+	
+
 }
